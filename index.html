@@ -328,11 +328,12 @@
         <!-- End #contact-form -->
     </div>
     <!-- End #contact -->
+    
 
     <footer>
         <div class="container">
-            <div class="row">
-                <div class="col-sm-5 copyright">
+            <div class="row align-items-center">
+                <div class="col-sm-5 copyright ">
                     <p>
                         Copyright &copy; <span id="current-year">2023</span> Jeongmin-Lee
                     </p>
@@ -342,28 +343,62 @@
                         <i class="fa fa-chevron-up" aria-hidden="true"></i>
                     </span>
                 </div>
-                <div class="col-sm-5 social">
+                <div class="col-sm-5 social ">
                     <ul>
                         <li>
-                            <a href="https://github.com/Jeongmingz?tab=repositories" target="_blank" title="github">
+                            <a class="btn" href="https://github.com/Jeongmingz?tab=repositories" target="_blank" title="github">
                                 <img src="images/github.png" alt="github_img">
                             </a>
                         </li>
                         <li>
-                            <a href="https://ijoungt.tistory.com/" target="_blank" title="tistory">
+                            <a class="btn" href="https://ijoungt.tistory.com/" target="_blank" title="tistory">
                                 <img src="images/Tistory.png" alt="tistory_img" width="20" height="20">
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.kaggle.com/jeongz/account" target="_blank" title="kaggle">
+                            <a class="btn" href="https://www.kaggle.com/jeongz/account" target="_blank" title="kaggle">
                                 <img src="images/Kaggle.png" alt="kaggle_img">
                             </a>
+                        </li>
+                        <li>
+                            <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                <i class="bi bi-person-badge fa-fw"></i>
+                              </button>
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
     </footer>
+    <!-- Button trigger modal -->
+  
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">이정민</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <ul>
+                    <li>
+                        연락처 : <a href='tel:010-3337-0861'>010-3337-0861</a>
+
+                    </li>
+                    <li>
+
+                        이메일 : <a href="mailto:joungminyt@gmail.com">joungminyt@gmail.com</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-outline-dark" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    
     <!-- End footer -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
